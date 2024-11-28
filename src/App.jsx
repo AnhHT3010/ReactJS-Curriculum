@@ -1,10 +1,11 @@
 import "./App.css";
-
+import { Profile } from "./components/Profile";
+// react thực hiện render theo dạng tree, gốc, nhánh
 function App() {
   return (
     <div>
-      <h1>Hello, world!</h1>
-      <p className="introduce">Welcome to your new single-spa application</p>
+      <h1>Website Reactjs</h1>
+      <Profile />
     </div>
   );
 }
