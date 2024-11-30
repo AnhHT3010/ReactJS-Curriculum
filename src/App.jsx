@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import { Blog } from "./components/Blog";
 import { Hobby } from "./components/Hobby";
 import { Footer } from "./components/Footer";
@@ -12,11 +13,11 @@ function App() {
     <>
       <Header />
       <h1>Website Reactjs</h1>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Profile />
       <Person />
       <Hobby />
       <Blog />
-
       <Footer />
     </>
   );
