@@ -1,9 +1,9 @@
+import ItemPerson from "./itemPerson";
+
 export function Person() {
   return (
     <div>
-      <p>họ và tên</p>
-      <p>độ tuổi</p>
-      <p>địa chỉ nhà</p>
+      <ItemPerson name="Quang Huy" age="15" city="Hà Nội" />
     </div>
   );
 }
