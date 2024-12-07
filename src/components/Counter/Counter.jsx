@@ -11,7 +11,21 @@ const Counter = () => {
           setCount(count + 1);
         }}
       >
-        ➕➖❌
+        ➕
+      </button>
+      <button
+        onClick={function () {
+          setCount(count - 1);
+        }}
+      >
+        ➖
+      </button>
+      <button
+        onClick={function () {
+          setCount(0);
+        }}
+      >
+        🔃
       </button>
     </>
   );
