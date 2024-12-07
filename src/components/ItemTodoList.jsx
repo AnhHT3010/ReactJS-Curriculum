@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const ItemPerson = ({ id, text }) => {
+const ItemTodoList = ({ id, text }) => {
   return (
     <div>
       <p className="italic font-mono font-semibold text-blue-600">{id}</p>
