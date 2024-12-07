@@ -6,10 +6,8 @@ import "./index.css";
 // import { Header } from "./components/Header";
 // import { Person } from "./components/Person";
 // import { Profile } from "./components/Profile";
-import MapContent from "./components/MapContent";
 // import { Calculator } from "./components/Calculator";
-import { TodoList } from "./components/TodoList";
-import { Calculator } from "./components/Calculator";
+import Counter from "./components/Counter/Counter";
 // react thực hiện render theo dạng tree, gốc, nhánh
 // Nếu như có từ 2 component trở lên thì cần phải bọc trong 1 thẻ div, <></>
 function App() {
@@ -24,8 +22,9 @@ function App() {
       <Blog />
       <Footer /> */}
       {/* <Calculator /> */}
-      <TodoList />
+      {/* <TodoList /> */}
       {/* <MapContent /> */}
+      <Counter />
     </>
   );
 }
