@@ -1,13 +1,13 @@
 import "./App.css";
 import "./index.css";
-import { Blog } from "./components/Blog";
-import { Hobby } from "./components/Hobby";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { Person } from "./components/Person";
-import { Profile } from "./components/Profile";
-import { TodoList } from "./components/TodoList";
-import { Calculator } from "./components/Calculator";
+// import { Blog } from "./components/Blog";
+// import { Hobby } from "./components/Hobby";
+// import { Footer } from "./components/Footer";
+// import { Header } from "./components/Header";
+// import { Person } from "./components/Person";
+// import { Profile } from "./components/Profile";
+import MapContent from "./components/MapContent";
+// import { Calculator } from "./components/Calculator";
 // react thực hiện render theo dạng tree, gốc, nhánh
 // Nếu như có từ 2 component trở lên thì cần phải bọc trong 1 thẻ div, <></>
 function App() {
@@ -21,8 +21,9 @@ function App() {
       <Hobby />
       <Blog />
       <Footer /> */}
-      <TodoList />
-      <Calculator />
+      {/* <Calculator /> */}
+      {/* <TodoList /> */}
+      <MapContent />
     </>
   );
 }
