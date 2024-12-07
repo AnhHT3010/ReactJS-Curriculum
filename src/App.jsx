@@ -8,14 +8,16 @@ import "./index.css";
 // import { Profile } from "./components/Profile";
 import MapContent from "./components/MapContent";
 // import { Calculator } from "./components/Calculator";
+import { TodoList } from "./components/TodoList";
+import { Calculator } from "./components/Calculator";
 // react thực hiện render theo dạng tree, gốc, nhánh
 // Nếu như có từ 2 component trở lên thì cần phải bọc trong 1 thẻ div, <></>
 function App() {
   return (
     <>
-      {/* <Header /> */}
-      {/* <h1>Website Reactjs</h1> */}
-      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      {/* <Header /> 
+       <h1>Website Reactjs</h1> 
+       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Profile />
       <Person />
       <Hobby />
