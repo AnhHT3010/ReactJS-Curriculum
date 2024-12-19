@@ -6,6 +6,7 @@ import "./index.css";
 import { Header } from "./components/WebBook/Header";
 import Banner from "./components/WebBook/Banner";
 import Utilities from "./components/WebBook/Utilities";
+import Booklist from "./components/WebBook/BookList";
 // import { Person } from "./components/Person";
 // import { Profile } from "./components/Profile";
 // import { Calculator } from "./components/Calculator";
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Banner />
       <Utilities />
+      <Booklist />
       {/*  <h1>Website Reactjs</h1> 
        <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Profile />
