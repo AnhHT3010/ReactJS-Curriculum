@@ -10,14 +10,14 @@ const BookList = () => {
       <h2 className="text-[36px] text-[#2c3136] font-bold text-center mb-8">
         Featured Books
       </h2>
-      <div className="flex gap-5 px-[10%]">
+      <div className="flex mx-[2%] px-15 relative">
         <Swiper
           spaceBetween={100}
           slidesPerView={4}
           onSlideChange={() => console.log("slide change")}
           onSwiper={(swiper) => console.log(swiper)}
           autoplay={{
-            delay: 2000,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           loop={true}
@@ -34,18 +34,18 @@ const BookList = () => {
           ))}
         </Swiper>
         <button
-          className="custom-prev absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-[#2c3136] text-white p-2 rounded-full"
+          className="custom-prev w-10 h-10 hover:shadow-lg absolute left-0 top-1/2 transform -translate-y-1/2 z-20 bg-[#2c3136] text-white p-2 rounded-full"
           aria-label="Previous"
         >
           {/* Replace this icon with any desired one */}
-          <span>➡️</span>
+          <i className="fa-solid fa-chevron-left"></i>
         </button>
         <button
-          className="custom-next absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-[#2c3136] text-white p-2 rounded-full"
+          className="custom-next w-10 h-10 hover:shadow-lg absolute right-0 top-1/2 transform -translate-y-1/2 z-20 bg-[#2c3136] text-white p-2 rounded-full"
           aria-label="Next"
         >
           {/* Replace this icon with any desired one */}
-          <span>↙️</span>
+          <i className="fa-solid fa-chevron-right"></i>
         </button>
       </div>
     </div>

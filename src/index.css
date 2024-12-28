@@ -1,11 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 /* tạo font chữ apply cho tất cả các phần tử có kiểu chữ dưới đây */
 /* Vào search font chữ cần tìm ở gg font */
 /* Chọn vào Embed code => nhấn vào @import => copy đoạn code @import url(...)  */
-* {
+body {
   font-family: "Raleway", sans-serif;
 }
 

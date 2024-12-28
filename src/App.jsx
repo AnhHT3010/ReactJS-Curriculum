@@ -3,12 +3,11 @@ import "./index.css";
 // import { Blog } from "./components/Blog";
 // import { Hobby } from "./components/Hobby";
 // import { Footer } from "./components/Footer";
-import { Header } from "./components/WebBook/Header";
-import Banner from "./components/WebBook/Banner";
-import Utilities from "./components/WebBook/Utilities";
-import Booklist from "./components/WebBook/BookList";
 import AuthorInformation from "./components/WebBook/AuthorInformation";
-import BookOfAuthor from "./components/WebBook/BookOfAuthor";
+import Banner from "./components/WebBook/Banner";
+import Booklist from "./components/WebBook/BookList";
+import { Header } from "./components/WebBook/Header";
+import Utilities from "./components/WebBook/Utilities";
 // import { Person } from "./components/Person";
 // import { Profile } from "./components/Profile";
 // import { Calculator } from "./components/Calculator";
@@ -22,7 +21,6 @@ function App() {
       <Utilities />
       <Booklist />
       <AuthorInformation />
-      <BookOfAuthor />
       {/*  <h1>Website Reactjs</h1> 
        <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Profile />
