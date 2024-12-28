@@ -1,4 +1,4 @@
-export const BookOfAuthor = [
+export const AuthorCard = [
   {
     id: 1,
     imgUrl: "https://m.media-amazon.com/images/I/911sposvKfL.jpg",
