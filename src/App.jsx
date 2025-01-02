@@ -9,6 +9,7 @@ import Booklist from "./components/WebBook/BookList";
 import { Header } from "./components/WebBook/Header";
 import Utilities from "./components/WebBook/Utilities";
 import Feedback from "./components/WebBook/Feedback";
+import Stats from "./components/WebBook/Stats";
 // import { Person } from "./components/Person";
 // import { Profile } from "./components/Profile";
 // import { Calculator } from "./components/Calculator";
@@ -23,6 +24,7 @@ function App() {
       <Booklist />
       <AuthorInformation />
       <Feedback />
+      <Stats />
       {/*  <h1>Website Reactjs</h1> 
        <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Profile />
