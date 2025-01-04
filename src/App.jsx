@@ -3,13 +3,10 @@ import "./index.css";
 // import { Blog } from "./components/Blog";
 // import { Hobby } from "./components/Hobby";
 // import { Footer } from "./components/Footer";
-import AuthorInformation from "./components/WebBook/AuthorInformation";
-import Banner from "./components/WebBook/Banner";
-import Booklist from "./components/WebBook/BookList";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/WebBook/Home";
+import AboutUs from "./components/WebBook/AboutUs";
 import { Header } from "./components/WebBook/Header";
-import Utilities from "./components/WebBook/Utilities";
-import Feedback from "./components/WebBook/Feedback";
-import Stats from "./components/WebBook/Stats";
 // import { Person } from "./components/Person";
 // import { Profile } from "./components/Profile";
 // import { Calculator } from "./components/Calculator";
@@ -19,43 +16,51 @@ function App() {
   return (
     <>
       <Header />
-      <Banner />
-      <Utilities />
-      <Booklist />
-      <AuthorInformation />
-      <Feedback />
-      <Stats />
-      {/*  <h1>Website Reactjs</h1> 
-       <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Profile />
-      <Person />
-      <Hobby />
-      <Blog />
-      <Footer /> */}
-      {/* <Calculator /> */}
-      {/* <TodoList /> */}
-      {/* <MapContent /> */}
-      {/* {open && <Counter />}
-      <div>
-        <button
-          className="bg-red-500 px-2"
-          onClick={function () {
-            setOpen(false);
-          }}
-        >
-          Ẩn
-        </button>
-        <button
-          className="bg-blue-500 ml-2 px-2"
-          onClick={function () {
-            setOpen(true);
-          }}
-        >
-          Hiện
-        </button>
-      </div> */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-us" element={<AboutUs />} />
+      </Routes>
     </>
   );
 }
 
 export default App;
+{
+  /*  <h1>Website Reactjs</h1> 
+ <h1 className="text-3xl font-bold underline">Hello world!</h1>
+<Profile />
+<Person />
+<Hobby />
+<Blog />
+<Footer /> */
+}
+{
+  /* <Calculator /> */
+}
+{
+  /* <TodoList /> */
+}
+{
+  /* <MapContent /> */
+}
+{
+  /* {open && <Counter />}
+<div>
+  <button
+    className="bg-red-500 px-2"
+    onClick={function () {
+      setOpen(false);
+    }}
+  >
+    Ẩn
+  </button>
+  <button
+    className="bg-blue-500 ml-2 px-2"
+    onClick={function () {
+      setOpen(true);
+    }}
+  >
+    Hiện
+  </button>
+</div> */
+}

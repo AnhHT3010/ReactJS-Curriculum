@@ -2,7 +2,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { AuthorCard } from "../../constants/bookauthor.const";
+import { categoryData } from "../../constants/categories.const";
 import BookAuthorItem from "./BookAuthorItem";
 
 const BookOfAuthor = () => {
@@ -24,7 +24,7 @@ const BookOfAuthor = () => {
       className="flex-1 h-[400px]"
       modules={[Autoplay, Navigation]}
     >
-      {AuthorCard.map((book) => (
+      {categoryData.map((book) => (
         <SwiperSlide key={book.id}>
           <BookAuthorItem book={book} />
         </SwiperSlide>
