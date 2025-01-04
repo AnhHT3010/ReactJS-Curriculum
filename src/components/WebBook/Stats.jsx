@@ -3,22 +3,22 @@ const Stats = () => {
     {
       value: "20,000+",
       label: "TOTAL BOOKS",
-      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvli7mmSyhU-GQq4_l2M6hZ3_utcbi3SPHZg&s", // Đường dẫn đến hình ảnh biểu tượng
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvli7mmSyhU-GQq4_l2M6hZ3_utcbi3SPHZg&s",
     },
     {
       value: "1,000+",
       label: "AUTHORS",
-      icon: "https://media.istockphoto.com/id/1332100919/vector/man-icon-black-icon-person-symbol.jpg?s=612x612&w=0&k=20&c=AVVJkvxQQCuBhawHrUhDRTCeNQ3Jgt0K1tXjJsFy1eg=", // Đường dẫn đến hình ảnh biểu tượng
+      icon: "https://media.istockphoto.com/id/1332100919/vector/man-icon-black-icon-person-symbol.jpg?s=612x612&w=0&k=20&c=AVVJkvxQQCuBhawHrUhDRTCeNQ3Jgt0K1tXjJsFy1eg=",
     },
     {
       value: "8,000+",
       label: "BOOKS SOLD",
-      icon: "https://png.pngtree.com/png-clipart/20230418/original/pngtree-trolley-line-icon-png-image_9065418.png", // Đường dẫn đến hình ảnh biểu tượng
+      icon: "https://png.pngtree.com/png-clipart/20230418/original/pngtree-trolley-line-icon-png-image_9065418.png",
     },
     {
       value: "97%",
       label: "HAPPY CUSTOMER",
-      icon: "https://png.pngtree.com/png-vector/20190401/ourlarge/pngtree-star-icon-design--essential-icon-vector-design-png-image_902954.jpg", // Đường dẫn đến hình ảnh biểu tượng
+      icon: "https://png.pngtree.com/png-vector/20190401/ourlarge/pngtree-star-icon-design--essential-icon-vector-design-png-image_902954.jpg",
     },
   ];
 
