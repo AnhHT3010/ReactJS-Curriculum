@@ -30,7 +30,6 @@ const Stats = () => {
           className="bg-white p-6 rounded-lg shadow-md w-[280px] flex items-center gap-4"
         >
           <img src={stat.icon} alt={stat.label} className="w-10 h-10" />{" "}
-          {/* Hình ảnh biểu tượng */}
           <div>
             <div className="text-2xl font-bold">{stat.value}</div>
             <div className="text-sm text-gray-500">{stat.label}</div>
