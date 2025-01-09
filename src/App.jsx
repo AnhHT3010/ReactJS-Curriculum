@@ -7,6 +7,8 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./components/WebBook/Home";
 import AboutUs from "./components/WebBook/AboutUs";
 import { Header } from "./components/WebBook/Header";
+import Shop from "./components/WebBook/Shop";
+import Contact from "./components/WebBook/Contact";
 // import { Person } from "./components/Person";
 // import { Profile } from "./components/Profile";
 // import { Calculator } from "./components/Calculator";
@@ -19,6 +21,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );

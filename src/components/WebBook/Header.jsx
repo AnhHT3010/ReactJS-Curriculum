@@ -16,8 +16,12 @@ export function Header() {
         <li className="hover:text-[#e04943ff] cursor-pointer">
           <Link to="/about-us">About us</Link>
         </li>
-        <li className="hover:text-[#e04943ff] cursor-pointer">Shop</li>
-        <li className="hover:text-[#e04943ff] cursor-pointer">Contact</li>
+        <li className="hover:text-[#e04943ff] cursor-pointer">
+          <Link to="/shop">Shop</Link>
+        </li>
+        <li className="hover:text-[#e04943ff] cursor-pointer">
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
     </div>
   );
