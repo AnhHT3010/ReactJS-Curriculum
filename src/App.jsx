@@ -9,6 +9,7 @@ import AboutUs from "./components/WebBook/AboutUs";
 import { Header } from "./components/WebBook/Header";
 import Shop from "./components/WebBook/Shop";
 import Contact from "./components/WebBook/Contact";
+import Support from "./components/WebBook/Support";
 // import { Person } from "./components/Person";
 // import { Profile } from "./components/Profile";
 // import { Calculator } from "./components/Calculator";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Support />
     </>
   );
 }
