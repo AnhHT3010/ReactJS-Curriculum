@@ -1,28 +1,23 @@
+import { Link } from "react-router-dom";
+
 const Support = () => {
   return (
-    <footer
-      style={{
-        backgroundColor: "#222",
-        color: "#fff",
-        padding: "40px 20px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "flex-start",
-        flexWrap: "wrap",
-        gap: "20px",
-      }}
-    >
-      <div style={{ maxWidth: "45%", textAlign: "left" }}>
-        <h2>Tempi</h2>
+    <footer className="bg-[#222] text-white flex justify-between items-start px-[10%] py-24">
+      <div className="w-1/2">
+        <h2 className="text-7xl font-semibold">Tempi</h2>
         <p>Peakview Tower, 36 Hoang Cau, Dong Da, Hanoi</p>
         <p>012.3344.566</p>
         <p>support@tempi.vn</p>
         <div style={{ display: "flex", gap: "15px", marginTop: "15px" }}>
+          <Link
+            target="_blank"
+            to="https://facebook.com"
+            style={{ color: "#fff" }}
+          >
+            <i className="fa-brands fa-facebook text-2xl"></i>
+          </Link>
           <a href="#" style={{ color: "#fff" }}>
-            Facebook
-          </a>
-          <a href="#" style={{ color: "#fff" }}>
-            YouTube
+            <i className="fa-brands fa-youtube text-3xl"></i>
           </a>
           <a href="#" style={{ color: "#fff" }}>
             TikTok
@@ -36,7 +31,7 @@ const Support = () => {
         </div>
       </div>
 
-      <div style={{ maxWidth: "50%", textAlign: "left" }}>
+      <div className="w-1/2">
         <h3 style={{ marginBottom: "20px", fontSize: "24px" }}>Need Help?</h3>
         <form style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           <input
@@ -89,15 +84,13 @@ const Support = () => {
           <button
             type="submit"
             style={{
-              padding: "12px",
               backgroundColor: "#e74c3c",
               color: "#fff",
               border: "none",
-              borderRadius: "8px",
               fontSize: "18px",
               cursor: "pointer",
-              width: "100%",
             }}
+            className="w-fit rounded-3xl px-6 py-2"
           >
             Send Message
           </button>

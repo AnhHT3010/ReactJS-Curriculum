@@ -27,11 +27,11 @@ const Stats = () => {
   ];
 
   return (
-    <div className="flex justify-center gap-8 bg-gray-100 py-10">
+    <div className="flex justify-between gap-8 pb-24 px-[10%]">
       {statsData.map((stat, index) => (
         <div
           key={index}
-          className="bg-white p-6 rounded-lg shadow-md w-[280px] flex items-center gap-4"
+          className="bg-transparent border-[1px] border-solid border-[#00000024] p-12 rounded-lg shadow-md w-[280px] flex items-center gap-4"
         >
           <div className={`p-4 rounded-full ${stat.backgroundColor}`}>
             <img src={stat.icon} alt={stat.label} className="w-10 h-10" />{" "}
