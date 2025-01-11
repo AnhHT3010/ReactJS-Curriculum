@@ -21,8 +21,12 @@ const ShopByCategory = () => {
               />
             </div>
             <div className="w-1/2 flex flex-col justify-evenly">
-              <h3 className="font-semibold">{category.title}</h3>
-              <p className="text-gray-500 text-xs">{category.description}</p>
+              <div>
+                <h3 className="font-semibold">{category.title}</h3>
+                <p className="text-gray-500 text-xs line-clamp-4">
+                  {category.description}
+                </p>
+              </div>
               <button
                 onClick={() => {
                   navigate(`/${category.id}`);

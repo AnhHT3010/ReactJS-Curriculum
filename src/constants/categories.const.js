@@ -6,17 +6,66 @@ export const categoryData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 490,
+    authorName: "Hailey Nguyen",
     rating: 5,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
   {
     id: 2,
     imgUrl:
       "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1570558443l/52516332.jpg",
     title: "Dire Wolf Stakes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    description: `Love kills. So do bow-wielding assassins. Maines troubles are only just beginning. The Mantle is still catnip to assassins. News of her victory is out and another liqudator of the living is after her. That would be enough trouble, if her ex wasnt also in town, proclaiming his undying love for her.
+    Where was this adoration when they were dating?
+    To make things worse, her pint-sized best friend has visitors. Noffs pack is being terrorized by a ruthless hunter with supernatural strength, speed, and senses.
+    Running with the wolves is tough……especially when youre the size of a chihuahua. This is Noffs chance to show hes more than a cat-sized dire wolf. If he saves the pack, maybe theyll finally accept him. Noff is determined to prove his worth by taking on the super-hunter, which means that Maine needs to take on the super-hunter.
+    Who knew being a half-troll, half-human detective would suck so hard?
+    Maines screwed. Will Maine be able to outwit her assassin, take down the super-hunter and turn away her love-sick ex-boyfriend? Dire-wolves and trolls and exes, oh my.`,
     price: 550,
+    authorName: "Hailey Nguyen",
     rating: 5,
+    review: [
+      {
+        id: 1,
+        name: "wills",
+        rating: 5,
+        review:
+          "I couldn't put the book down. I enjoy Noff's fighting spirit. Maine's determination to do the right thing despite the odds being against her have me cheering. Wonderful story telling.",
+      },
+      {
+        id: 2,
+        name: "	Kindle Customer",
+        rating: 4,
+        review:
+          "The second novel in this series has helped flush out a lot of details that were missing in the first book. I enjoyed it and I'm looking forward to the next book in the series",
+      },
+      {
+        id: 3,
+        name: "	WelshDragon",
+        rating: 3,
+        review:
+          "I enjoyed this book. As I have said before, anything with Michael Anderle's recommendation is good. I do not mean to discount the author, Ramy Vance at all. The book is very well written and the plot, easily followed is a good one. The main characters are interesting, fun, and become endearing as the story unfolds. I highly recommend this book as well as the first book in this series.",
+      },
+    ],
   },
   {
     id: 3,
@@ -26,7 +75,28 @@ export const categoryData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 902,
+    authorName: "Hailey Nguyen",
     rating: 5,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
   {
     id: 4,
@@ -36,7 +106,28 @@ export const categoryData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 613,
+    authorName: "Hailey Nguyen",
     rating: 5,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
   {
     id: 5,
@@ -46,7 +137,28 @@ export const categoryData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 1100,
+    authorName: "Hailey Nguyen",
     rating: 3,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
   {
     id: 6,
@@ -56,7 +168,28 @@ export const categoryData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 613,
+    authorName: "Hailey Nguyen",
     rating: 2,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
   {
     id: 7,
@@ -66,7 +199,28 @@ export const categoryData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 1100,
+    authorName: "Hailey Nguyen",
     rating: 3,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
   {
     id: 8,
@@ -76,7 +230,28 @@ export const categoryData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 100,
+    authorName: "Hailey Nguyen",
     rating: 4,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
   {
     id: 9,
@@ -86,7 +261,28 @@ export const categoryData = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 130,
+    authorName: "Hailey Nguyen",
     rating: 3,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
   {
     id: 10,
@@ -96,6 +292,27 @@ export const categoryData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     title: "Romance",
     price: 200,
+    authorName: "Hailey Nguyen",
     rating: 4,
+    review: [
+      {
+        id: 1,
+        name: "Hailey Nguyen",
+        rating: 5,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 2,
+        name: "Hailey Nguyen",
+        rating: 4,
+        review: "This book is very good. I like it",
+      },
+      {
+        id: 3,
+        name: "Hailey Nguyen",
+        rating: 3,
+        review: "This book is very good. I like it",
+      },
+    ],
   },
 ];

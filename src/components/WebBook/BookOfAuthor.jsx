@@ -10,7 +10,6 @@ const BookOfAuthor = () => {
     <Swiper
       spaceBetween={50}
       slidesPerView={2}
-      onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
       autoplay={{
         delay: 5000,
