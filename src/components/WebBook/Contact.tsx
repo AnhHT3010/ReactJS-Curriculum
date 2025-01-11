@@ -1,7 +1,12 @@
 import React from "react";
+import Bookstore from "./Bookstore";
 
 const Contact = () => {
-  return <div className="pt-24">Contact</div>;
+  return (
+    <>
+      <Bookstore />
+    </>
+  );
 };
 
 export default Contact;
