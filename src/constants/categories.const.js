@@ -33,7 +33,7 @@ Kèm theo sách, là khóa học Chinh Phục Đỉnh Pi, đã giúp nhiều đ�
 
 Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Trí Nhớ Trong Bạn, và bắt đầu hành trình sống với đúng tiềm năng vốn có của bạn từ hôm nay!`,
     price: 490,
-    authorName: "Hailey Nguyen",
+    authorName: "Haruki Murakami",
     rating: 5,
     review: [
       {
@@ -71,7 +71,7 @@ Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Tr�
     Who knew being a half-troll, half-human detective would suck so hard?
     Maines screwed. Will Maine be able to outwit her assassin, take down the super-hunter and turn away her love-sick ex-boyfriend? Dire-wolves and trolls and exes, oh my.`,
     price: 550,
-    authorName: "Hailey Nguyen",
+    authorName: "Edward Albee",
     rating: 5,
     review: [
       {
@@ -105,7 +105,7 @@ Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Tr�
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 902,
-    authorName: "Hailey Nguyen",
+    authorName: "William Shakespeare",
     rating: 5,
     review: [
       {
@@ -135,8 +135,8 @@ Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Tr�
     title: "Treachery, Alpha colony book 8",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-    price: 613,
-    authorName: "Hailey Nguyen",
+    price: 25,
+    authorName: "Arturo Pérez-Reverte",
     rating: 5,
     review: [
       {
@@ -167,7 +167,7 @@ Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Tr�
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 1100,
-    authorName: "Hailey Nguyen",
+    authorName: "Umberto Eco",
     rating: 3,
     review: [
       {
@@ -197,8 +197,8 @@ Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Tr�
     title: "Literature & Fiction",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-    price: 613,
-    authorName: "Hailey Nguyen",
+    price: 50,
+    authorName: "Jennifer Lee Carrell",
     rating: 2,
     review: [
       {
@@ -229,7 +229,7 @@ Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Tr�
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 1100,
-    authorName: "Hailey Nguyen",
+    authorName: "Marc Norman",
     rating: 3,
     review: [
       {
@@ -260,7 +260,7 @@ Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Tr�
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 100,
-    authorName: "Hailey Nguyen",
+    authorName: "Dai Sijie",
     rating: 4,
     review: [
       {
@@ -291,7 +291,7 @@ Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Tr�
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     price: 130,
-    authorName: "Hailey Nguyen",
+    authorName: "George Bernard Shaw",
     rating: 3,
     review: [
       {
