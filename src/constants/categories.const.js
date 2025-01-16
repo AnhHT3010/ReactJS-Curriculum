@@ -3,29 +3,59 @@ export const categoryData = [
     id: 1,
     imgUrl: "https://m.media-amazon.com/images/I/911sposvKfL.jpg",
     title: "Her Final Goodbye",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    description: `Thượng đế ban cho mỗi người bộ não thiên tài, chỉ tiếc là ngài quên gửi... hướng dẫn sử dụng!
+
+Bạn đã thấy ai đó có vẻ thông minh hơn mình chưa? Họ ghi nhớ mọi thứ dễ dàng hơn, suy tính nhanh nhạy hơn, nói chung họ làm gì cũng tự tin và thuận lợi hơn?
+
+Sẽ ra sao nếu bạn đánh thức được tiềm năng thực sự của bạn, vốn to lớn gấp 10 lần bạn nghĩ?
+
+Từng tốt nghiệp trung bình vì 4 điểm Văn, lại hướng nội, ít nói, hơn ai hết, Fususu hiểu cảm giác thiếu tự tin về bản thân là như thế nào. Nhưng kể từ khi đánh thức tiềm năng não bộ, anh đã chinh phục nhiều mục tiêu không tưởng:
+
++ Xuất bản tới hơn 9 cuốn sách, thậm chí còn hướng dẫn hàng chục tác giả khác viết sách.
+
++ Người Việt Nam đầu tiên vô địch thuyết trình hài hước Toastmasters khu vực 5 nước Đông Nam Á.
+
++ Về hưu trước tuổi 30, sống thong dong tự tại, ở nơi mình thích, làm việc mình yêu, đóng góp cho đời.
+
+Vì thế, hơn ai hết, Fususu hiểu tường tận con đường A-Z từ “không ai cả” trở thành “một ai đó”, cũng như cách để bất cứ người bình thường nào, cũng có thể chinh phục các mục tiêu “phi thường”. 
+
+Và tất cả bắt đầu với việc rèn luyện trí não.
+
+Thế nên, từ cách đây hơn 10 năm, Fususu đã không ngừng tìm hiểu, và khám phá ra phương pháp đơn giản, mà hiệu quả nhất để kích hoạt trí não, và tổng hợp thành bộ sách Numagician, giúp bạn:
+
++ Kích hoạt siêu trí nhớ trong 5 phút với các con số ảo thuật, phát triển khả năng siêu sáng tạo.
+
++ Làm chủ kỹ năng ghi nhớ thực chiến với 100 móc treo trí nhớ, áp dụng từ trường học tới trường đời.
+
++ Chinh phục đỉnh núi Pi, nhớ cả ngàn số khiến bạn bè người thân, và cả chính bạn ngạc nhiên.
+
+Kèm theo sách, là khóa học Chinh Phục Đỉnh Pi, đã giúp nhiều độc nhớ được dãy số Pi dài cả ngàn số, và quay clip youtube, như một minh chứng cho thấy: Mọi thứ đều có thể, vấn đề là phương pháp.
+
+Hãy sở hữu ngay cuốn sách Numagician để Đánh Thức Phù Thủy Trí Nhớ Trong Bạn, và bắt đầu hành trình sống với đúng tiềm năng vốn có của bạn từ hôm nay!`,
     price: 490,
     authorName: "Hailey Nguyen",
     rating: 5,
     review: [
       {
         id: 1,
-        name: "Hailey Nguyen",
+        name: "Trần Ngọc Huyền",
         rating: 5,
-        review: "This book is very good. I like it",
+        review:
+          " Mình đã nhận được sách rùi ạ.nhân viên của shop rất nhiệt tình nhẹ nhàng tư vấn và mình đã đổi được đúng quyển mà bé nhà mình thích.Nhận được sách cháu thích mê, đọc 1 lèo luôn.sách có nội dung gợi mở..",
       },
       {
         id: 2,
-        name: "Hailey Nguyen",
+        name: "Trần Nhung",
         rating: 4,
-        review: "This book is very good. I like it",
+        review:
+          "Biết fususu thông qua các blog nhưng vẫn rất băn khoăn mãi nên chưa biết nên đọc quyển nào, cho đến khi hoàn thành Numagician thì thôi rồi mình nghiện các phép biến hoá trong sách luôn, trong sách là các phương pháp trình bày vô cùng dễ hiểu, mỗi phần còn có các bài thực hành ngay để giúp cho độc giả đọc xong sách là có thể áp dụng liền, giờ đây mình đang thử thách bản thân với hành trình nhớ 1000 số pi",
       },
       {
         id: 3,
-        name: "Hailey Nguyen",
+        name: "Phạm thị thanh loan",
         rating: 3,
-        review: "This book is very good. I like it",
+        review:
+          "Mình đã nhận được sách rùi ạ.nhân viên của shop rất nhiệt tình nhẹ nhàng tư vấn và mình đã đổi được đúng quyển mà bé nhà mình thích.Nhận được sách cháu thích mê, đọc 1 lèo luôn.sách có nội dung gợi mở các tư duy.mình thấy đáng đồng tiền bỏ ra ạ.sẽ  ủng hộ shop dài dài.cảm ơn shop và tác giả sách nhé!",
       },
     ],
   },
