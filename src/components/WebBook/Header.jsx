@@ -23,6 +23,10 @@ export function Header() {
       name: "Contact",
       href: "/contact",
     },
+    {
+      name: "Cart",
+      href: "/cart",
+    },
   ];
   return (
     <div className="flex fixed bg-white z-50 w-full justify-between px-40 py-6 items-center shadow-md">

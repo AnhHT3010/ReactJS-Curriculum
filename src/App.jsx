@@ -11,6 +11,7 @@ import { Header } from "./components/WebBook/Header";
 import Home from "./components/WebBook/Home";
 import Shop from "./components/WebBook/Shop";
 import Support from "./components/WebBook/Support";
+import Cart from "./components/WebBook/Cart";
 // import { Person } from "./components/Person";
 // import { Profile } from "./components/Profile";
 // import { Calculator } from "./components/Calculator";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Support />
     </>
